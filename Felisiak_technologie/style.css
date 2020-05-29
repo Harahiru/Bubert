@@ -1,0 +1,144 @@
+body* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    background-color:#eeccff;
+    height:150px;
+}
+header h1{
+    width:50%;
+    font-size: 50px;
+    margin-top:auto;
+    margin-bottom:auto;
+    display:block;
+}
+nav{
+    margin-top:auto;
+    margin-bottom:auto;
+    display:block;
+    width:50%;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+}
+li{
+    text-decoration: none;
+    list-style:none;
+    padding: .5em;
+}
+li a{
+    background-color:#C933D1;
+    color:#fff;
+    border-radius:1em;
+    padding: 1em;
+    border: 1px solid #000;
+    text-decoration: none;
+    list-style:none;
+    transition: 0.3s;
+}
+li a:hover{
+    background-color:#F52631;
+    
+}
+main{
+    display:flex;
+    flex-direction: row;
+    margin-top:-40px;
+    background-color:#e6b3ff;
+    height:700px;
+}
+main h3{
+    text-align: center;
+    font-size:40px;
+}
+main p{
+    font-size:30px;
+    text-align: center;
+    padding:.5em;
+    padding-top:1em;
+}
+hr{
+    width:2%;
+    height:3px;
+    background-color:#C933D1;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+article{
+    width:50%;
+    
+}
+figure{
+    margin-top:3em;
+    width:50%;
+    margin-top:auto;
+    margin-bottom:auto;
+    display:block;
+}
+img{
+    padding-left:10em;
+    width:600px;
+    height:400px;
+}
+footer{
+    background-color:#d580ff;
+    text-align:center;
+    height: 150px;
+    margin-top:-30px;
+}
+footer p{
+    padding-top:50px;
+    display:block;
+    font-size:30px;
+}
+form{
+    margin:auto;
+    margin-top:20px;
+    display:flex;
+    flex-direction: column;
+}
+.formularz{
+    margin-top:10px;
+    width:600px;
+    height:30px;
+    border-radius: .5em;
+    padding:.5em;
+    background-color:#D2D4FF;
+}
+.textarea{
+    height:200px;
+}
+.mainek{
+    display:flex;
+    flex-direction: column;
+}
+::placeholder{
+    color:#C933D1;
+    opacity:0.5;
+    font-weight: bold;
+}
+.przycisk{
+    margin: auto;
+    margin-top:25px;
+    border-radius: .7em;
+    width:200px;
+    height:50px;
+    background-color:#D2D4FF;
+}
+.przycisk:hover{
+    background-color:#9AC8FF;
+}
+
+
+
